@@ -555,6 +555,7 @@ SkeledirgeEvosMoves:
 	db 15, BITE
 	db 28, ROAR
 	db 32, FLAMETHROWER
+	db 38, SHADOW_BALL
 	db 58, FIRE_BLAST
 	db 0
 
