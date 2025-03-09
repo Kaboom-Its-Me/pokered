@@ -164,6 +164,7 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw ShadowBallAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -816,6 +817,7 @@ MinimizeAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+ShadowBallAnim:
 SmokeScreenAnim:
 	battle_anim SMOKESCREEN, SUBANIM_1_SAND, 1, 6
 	battle_anim NO_MOVE, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
