@@ -298,6 +298,16 @@ _TangelaDexEntry::
 	next "shake as it walks"
 	dex
 
+_SkeledirgeDexEntry::
+	text "The fiery bird"
+	next "changes shape when"
+	next "Skeledirge sings."
+	
+	page "The bird was born"
+	next "when the egg on"
+	next "its head hatched."
+	dex
+
 _GrowlitheDexEntry::
 	text "Very protective"
 	next "of its territory."
